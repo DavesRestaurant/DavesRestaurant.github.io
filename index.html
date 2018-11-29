@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -6,12 +7,28 @@
 </head>
 
 <body>
-  <a href="/index">Home</a>
-  <a href="/contactus">Contact Us</a>
-  <a href="/menu">Menu</a>
-  <h1>Dave's Restaurant</h1>
-  <h2>Coventry's Best Comfort Food</h2>
-  <p>Welcome to Dave's Restaurant where we serve delicious home cooked food in a warm and friendly atmosphere. Be part of our family by booking a table at our local Coventry restaurant!</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contactus">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="/menu">Menu</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <h1 id='maintitle'>Dave's Restaurant</h1>
+  <h2 id='strapline'>Coventry's Best Comfort Food</h2>
+  <p>Welcome to Dave's Restaurant, where we serve delicious home cooked food in a warm and friendly atmosphere. Be part of our family by booking a table at our local Coventry restaurant!</p>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -61,7 +78,35 @@
     </a>
   </div>
 
-<h3>Our Story</h3>
-  <p2>Dave's Restaurant is a family run restuarant, originating from the valleys of South Wales. We started from family dinners with Nan's secret recipes to an award winning restuarant. Our famous Chef Lucien was trained in France and worked in a 3 michelin star restaurants for over a decade. So please come and enjoy his home cooked food!</p2>
-  <p3>We pride ourselves on serving great quality food and drink, and we can promise great value… and of course, a generous serving of sizzle! So, whether you’re looking for somewhere to enjoy a meal with friends and family, watch the footy with a few mates over an iced cold beer or to enjoy your next celebration, you’ll find Dave's Restaurant suits you.</p3>
+<h2>Our Story</h2>
+  <p>Dave's Restaurant is a family run restaurant, originating from the valleys of South Wales. We started from family dinners with Nan's secret recipes to an award winning restuarant. Our famous Chef Lucien was trained in France and worked in Michelin starred restaurants for over a decade. So please come and enjoy his home cooked food!</p>
+  <p>We pride ourselves on serving great quality food and drink, and we can promise great value… and of course, a generous serving of sizzle! So, whether you’re looking for somewhere to enjoy a meal with friends and family, watch the footy with a few mates over an iced cold beer or to enjoy your next celebration, you’ll find that Dave's Restaurant suits you.</p>
 </body>
+
+<h1></h1>
+<h2>Meet the Team</h2>
+
+<div id='meetteam' class="text-center">
+<div class="row">
+  <div class="col-sm-3">
+    <img class='img-fluid rounded-circle' src='images/man.jpg'>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+  </div>
+  <div class="col-sm-3">
+    <img class='img-fluid rounded-circle' src='images/man.jpg'>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+  </div>
+  <div class="col-sm-3">
+    <img class='img-fluid rounded-circle' src='images/man.jpg'>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+  </div>
+  <div class="col-sm-3">
+    <img class='img-fluid rounded-circle' src='images/man.jpg'>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+  </div>
+</div>
+</div>
+
+
+
+<iframe src="https://calendar.google.com/calendar/embed?src=cln48o5gjr9236v31jss2e82mk%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
