@@ -4,9 +4,9 @@
 <style>
 body{background-color:red;
  }
+div id='menu' class="text-center">
 
-
-#customers {
+#menu {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -28,90 +28,3 @@ body{background-color:red;
     background-color: #900000;
     color: white;
 }
-</style>
-</head>
-<h1>FOOD MENU</h1>
-<table style="width:100%">
-  <tr>
-    <th>MAIN COURSE</th>
-  </tr>
-  <tr>
-    <td>Cheese Burger</td>
-    <td>£14</td>
-  </tr>
-  <tr>
-    <td>Extra Cheese</td>
-    <td>£0.40</td>
-  </tr>
-  <tr>
-    <td>Beef Burger</td>
-    <td>£16</td>
-  </tr>
-  <tr>
-  <td>Carrot & Orange Soup</td>
-  <td>£8</td>
-  </tr>
-  <tr>
-  <td>Creamy Chicken & Sweetcorn Soup</td>
-  <td>£9</td>
-  </tr>
-  <td>Strawberries & Cream Pancakes</td>
-  <td>£12</td>
-  </tr>
-  <tr>
-  <td>Extra Fruit Toppings</td>
-  <td>£0.80</td>
-  </tr>
-  <tr>
-  <td>Streaky Bacon & Maple Syrup Pancakes</td>
-  <td>£13</td>
-  </tr>
-  <tr>
-  <td>Margherita Pizza</td>
-  <td>£10</td>
-  </tr>
-  <tr>
-  <td>All Day Breakfast</td>
-  <td>£15</td>
-  </tr>
-  <tr>
-  <td>Pesto Pasta</td>
-  <td>£11</td>
-  </tr>
-  <tr>
-  <td>Pasta & Pancetta Linguine</td>
-  <td>£9</td>
-  </tr>
-  <th>DRINKS</th>
-  <tr>
-  <td>Red Wine</td>
-  <td>£5</td>
-  </tr>
-  <tr>
-  <td>White Wine</td>
-  <td>£5</td>
-  </tr>
-  <tr>
-  <td>Beer</td>
-  <td>£4</td>
-  </tr>
-  <tr>
-  <td>Spirits</td>
-  <td>£3</td>
-  </tr>
-  <tr>
-  <td>Soft Drinks</td>
-  <td>£4</td>
-  </tr>
-  <tr>
-  <td>Sparkling Water</td>
-  <td>£2</td>
-  </tr>
-  <tr>
-  <td>Still Water</td>
-  <td>£2</td>
-  </tr>
-</table>
-</body>
-</html>
-<p1>Tables with 10+ people subject to discretionary service charge of 12%</p1>
