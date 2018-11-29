@@ -8,3 +8,6 @@ table, th, td {
 </style>
 </head>
 <body>
+.color-info{
+  border: 3px solid black;
+}
