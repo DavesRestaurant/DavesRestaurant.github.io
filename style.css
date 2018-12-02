@@ -72,3 +72,7 @@ table, th, td {
 #menu-table {
   background-color: #FBF4F4
 }
+
+#stuffneedingcentring {
+  text-align: center;
+}
