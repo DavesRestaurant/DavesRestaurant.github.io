@@ -60,3 +60,16 @@ nav {
   background: #9c1a1a;
   color: white;
 }
+
+th, td {
+    padding: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+#menu-table {
+  background-color: #FEEEEE
+}
