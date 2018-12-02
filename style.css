@@ -7,6 +7,11 @@
     font-family: "Verdana", sans-serif;
 }
 
+.topnav a:hover {
+    background-color: #FEFEFE;
+    color: 960000;
+}
+
 a:link {
     color: white;
 }
