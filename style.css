@@ -44,7 +44,6 @@ p {
 
 nav {
   height: 50px;
->>>>>>> b1195c2cb03caea41cd0391d8b7dee492ac39e93
 }
 
 #contact-title {
@@ -89,4 +88,19 @@ table, th, td {
 }
 .btn-info:focus, .btn-info.focus {
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+#calendar {
+  float: left;
+}
+
+#eventlist {
+  float: right;
+  width: 750px;
+  font-size: 22px;
+}
+
+#notnav {
+  padding-left: 100px;
+  padding-right: 100px;
 }
