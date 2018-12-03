@@ -89,9 +89,6 @@ table, th, td {
 .btn-info:focus, .btn-info.focus {
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
 }
-.btn-outline:focus, .btn-outline.focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
-}
 
 #calendar {
   float: left;
@@ -103,13 +100,13 @@ table, th, td {
   font-size: 22px;
 }
 
-#notnav {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 #menu-table {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.col-sm-10 {
+  margin-left: auto;
+  margin-right: auto;
 }
