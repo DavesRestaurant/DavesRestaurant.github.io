@@ -1,5 +1,5 @@
 .topnav {
-    background-color: #FE6868;
+    background-color: 960000;
     overflow: hidden;
     text-align: center;
     padding: 14px 16px;
@@ -69,7 +69,7 @@ table, th, td {
 }
 
 #menu-table {
-  background-color: #FBF4F4
+  background-color:#FEF9F9
 }
 
 #stuffneedingcentring {
@@ -105,4 +105,8 @@ table, th, td {
 .col-sm-10 {
   margin-left: auto;
   margin-right: auto;
+}
+
+.body {
+  background-color:#F9EFEC;
 }
